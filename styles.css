@@ -1,0 +1,65 @@
+body {
+  text-align: center;
+  background-color: #1F6E8C;
+  background-image: url("images/simonimg.jpg");
+}
+
+#level-title {
+  font-family: "VT323";
+  font-size: 5rem;
+  margin:  3.5%;
+  color: #B6EAFA;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 180px;
+  width: 180px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+.tap{
+margin-top: 60px;
+  width: 60px;
+  height: 60px;
+}
+
+.btn:hover{
+  h2{
+    font-weight: bold;
+  }
+}
+
+.game-over {
+  background-image: url(images/gameover.png);
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
